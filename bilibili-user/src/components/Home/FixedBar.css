@@ -1,0 +1,95 @@
+.fixed-bar{
+	position: fixed;
+    z-index: 10;
+    left: 50%;
+    top: 235px;
+    margin-left: 500px;
+    transition: top .3s;
+}
+.fixed-bar .bar-bg {
+	top: -15px;
+    right: 0;
+    height: 100%;
+    padding-bottom: 20px;
+    width: 60px;
+    position: absolute;
+    background: hsla(0,0%,100%,.8);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.68,-.55,.27,1.55);
+}
+.fixed-bar .bar-bg .name-img {
+	position: absolute;
+    width: 117px;
+    height: 333px;
+    background: url(../img/tab2233.png);
+    left: 12px;
+    top: 14px;
+}
+.fixed-bar .fiex-list {
+	position: relative;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    border-radius: 4px;
+}
+.fixed-bar .fiex-list .index-name {
+	width: 48px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: background-color .3s,color .3s;
+    cursor: pointer;
+}
+.fixed-bar .fiex-list .index-name:hover {
+	background-color: #00a1d6;
+	color: #fff;
+}
+.hov {
+    background-color: #00a1d6;
+	color: #fff;
+}
+.customize {
+    height: 38px;
+    line-height: 20px;
+    padding: 8px 0;
+    border-top: 1px solid #e5e9ef;
+}
+.customize .icon {
+    display: block;
+    margin: 0 auto 4px;
+    background-position: -663px -151px;
+    height: 18px;
+    width: 18px;
+}
+.bili-icon, 
+.icon {
+    display: inline-block;
+    background-image: url(//static.hdslb.com/images/base/icons.png);
+}
+.s-line {
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 9px;
+    width: 30px;
+    margin: 0 auto;
+}
+.back-top {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    height: 48px;
+    background-position: -648px -72px;
+    background-color: #f6f9fa;
+    border: 1px solid #e5e9ef;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.app-download {
+    position: relative;
+    width: 50px;
+    height: 70px;
+}
+a {
+    transition: color .2s;
+}

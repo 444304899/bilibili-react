@@ -1,0 +1,193 @@
+.footer {
+    width: 100%;
+    margin-top: 162px;
+    color: #99a2aa;
+    text-align: center;
+    font-size: 12px;
+    height: 392px;
+    background-color: #f6f9fa;
+    /* font-weight: normal; */
+    min-width: 980px;
+}
+.footer .footwrp {
+	background-color: #f6f9fa;
+    padding-top: 40px;
+    padding-bottom: 110px;
+}
+.footer .footer-list {
+	list-style: none;
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 30px;
+}
+.footer .footer-list li {
+	float: left;
+    text-align: left;
+    list-style: none;
+    width: 300px;
+    height: 112px;
+    padding-right: 25px;
+    padding-left: 24px;
+    line-height: 1;
+    border-left: solid 1px #e5e9ef;
+    font-size: 14px;
+}
+.footer .footer-list li:first-of-type {
+	border-left: 0;
+    padding-left: 0!important;
+}
+.footer .footer-list li:last-of-type {
+	width: 280px;
+    padding-right: 0;
+}
+.footer .footer-list .list-tit {
+	margin-bottom: 22px;
+}
+.footer .footer-list .tips {
+	float: left;
+    width: 100px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.footer .footer-list a {
+	text-decoration: none;
+    cursor: pointer;
+    color: #222;
+    white-space: nowrap;
+    
+}
+.footer .footer-list .footer-list-right {
+	position: relative;
+    width: 100%;
+    float: right;
+    display: block;
+}
+.footer .footer-list-right div {
+    position: relative;
+    width: 82px;
+    height: 80px;
+    float: left;
+}
+.footer .footer-list-right .picture {
+    position: relative;
+    margin-left: 11px;
+    width: 60px;
+    height: 60px;
+}
+.footer .phone .picture {
+	background: url(../../images/icons.png) no-repeat -1024px -194px;
+}
+.footer .weibo .picture {
+	background: url(../../images/icons.png) no-repeat -1024px -322px;
+}
+.footer .weixin .picture {
+	background: url(../../images/icons.png) no-repeat -1024px -66px;
+}
+.footer .footer-list-right em {
+	position: absolute;
+    width: 82px;
+    line-height: 14px;
+    float: left;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-weight: normal;
+}
+.footer a:hover {
+	color:#00a1d6;
+	/*background:#f4f4f4;*/
+}
+.footer .footer-foot {
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    height: 80px;
+}
+.footer .footer-foot-l .lp {
+    background: url(../../images/footlogo.png) no-repeat;
+    width: 100px;
+    height: 80px;
+}
+
+.footer .footer-foot .footer-foot-l,
+.footer .footer-foot .footer-foot-r {
+    line-height: 24px;
+    line-height: 24px;
+}
+.footer a {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #99a2aa;
+}
+.footer a:hover {
+    color: #000;
+}
+.footer .foot-ico {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(../../images/icons.png) no-repeat;
+    background-position: -1367px -89px
+}
+
+.footer .footer-list-right .qrcode-box-wrp {
+    width: 130px;
+    height: 130px;
+    background: #fff;
+    margin-top: -146px;
+    right: -23px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+    z-index: 100000;
+}
+.footer .footer-list-right div {
+    position: relative;
+    width: 82px;
+    height: 80px;
+    float: left;
+}
+.footer .footer-list-right .qrcode-box.qrcode-app {
+    background: url(../../images/downapp.png) center center no-repeat;
+}
+.footer .footer-list-right .qrcode-box {
+    width: 128px;
+    height: 128px;
+    border: 1px solid #e5e9ef;
+}
+.footer .footer-list-right .qrcode-box .qrcode-box-arrow {
+    width: 130px;
+    height: 141px;
+    background: url(../../images/arrow.png) bottom center no-repeat;
+}
+.footer .footer-list-right .phone:hover .qrcode-box-wrp, 
+.footer .footer-list-right .weibo:hover .qrcode-box-wrp, 
+.footer .footer-list-right .weixin:hover .qrcode-box-wrp {
+    visibility: visible;
+    opacity: 1;
+}
+.footer .footer-list-right .qrcode-box.qrcode-weibo {
+    background: url(../../images/xl.png) center center no-repeat;
+}
+
+.footer .footer-list-right .qrcode-box.qrcode-weixin {
+    background: url(//s1.hdslb.com/bfs/static/base/img/wx.ed20cfb.gif) center center no-repeat;
+}
+.footer .footer-list-right .bigvip-qrcode {
+    width: 260px;
+    height: 150px;
+    margin-top: -166px;
+}
+.footer .footer-list-right .bigvip-qrcode .qrcode-box {
+    width: 258px;
+    height: 148px;
+}
+.footer .footer-list-right .bigvip-qrcode .qrcode-box .qrcode-box-arrow {
+    margin-left: 128px;
+    margin-top: 20px;
+}

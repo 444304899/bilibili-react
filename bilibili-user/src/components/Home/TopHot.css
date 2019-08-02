@@ -1,0 +1,217 @@
+.top-hot {
+	height: 220px;
+	padding-bottom: 40px;
+}
+
+img {
+    border-radius: 4px;
+}
+.hot .turn-pic img {
+   width: 440px;
+   height: 220px;
+   position: absolute;
+}
+.hot .turn-pic {
+	width: 440px;
+	height: 220px;
+	margin-right: 20px;
+	position: relative;
+}
+.hot .turn-pic .pic{
+    width: 440px;
+	height: 220px;
+	margin-right: 20px;
+    position: relative;
+}
+.turn-pic .turn-pic-box {
+	position: absolute;
+}
+.hot .introduce {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 280px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.hot .turn-pic .bottom {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    background: -webkit-linear-gradient(transparent,rgba(0,0,0,.5));
+}
+.hot .pic>li {
+    display: none;
+}
+.turn-pic .bottom>li {
+    display: none;
+}
+.turn-pic .point {
+	position: absolute;
+    z-index: 3;
+    bottom: 6px;
+    right: 20px;
+}
+.turn-pic .point > span {
+	width: 18px;
+    height: 18px;
+    background-image: url(../../images/icons.png);
+    background-position: -855px -790px;
+    background-color: transparent;
+    
+    transition: none;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hot .point .on {
+	background: url(../../images/icons.png)-855px -727px no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.hot .point .on:hover{
+    background: url(../../images/icons.png)-855px -727px no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.hot .point span:hover {
+	background: url(../../images/icons.png)-919px -790px no-repeat;
+	z-index: 100;
+}
+
+.hot .yesterday {
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    background-image: url(../../images/icons2.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+    left: 0px;
+    border-radius: 0 4px 4px 0;
+    padding: 13px 5px 13px 10px;
+    background-position: 6px -1211px;
+    height: 32px;
+    z-index: 10;
+}
+.hot .tomorrow {
+    right: -360px;
+    border-radius: 4px 0 0 4px;
+    padding: 13px 10px 13px 5px;
+    background-position: 25px -1262px;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    background-image: url(../../images/icons2.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+    height: 32px;
+    z-index: 10;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+}
+
+.flex-bottom {
+	margin-top: 20px;
+}
+.video {
+	position: relative;
+	width: 160px;
+	height: 148px;
+}
+.video .video-box {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.video-title {
+	position: absolute;
+    left: 0;
+    top: 68px;
+    width: 150px;
+    height: 100%;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 5px;
+    color: #fff;
+    display: block;
+}
+.video-mask {
+	position: absolute;
+    left: 0;
+    top: 0px;
+    width: 150px;
+    font-size: 12px;
+    height: 80px;
+    line-height: 20px;
+    padding: 10px 5px;
+	display: none;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,.5);
+}
+.video-box:hover .video-mask {
+	display: block;
+}
+.video-box:hover .text{
+    color:#00a1d6
+}
+.video-box:hover .video-title {
+	background-color: #00a1d6;
+}
+.video-box:hover .video-title {
+	display: none;
+}
+.video-mask .title {
+	color: #fff;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.video-mask .autor {
+    color: #99a2aa;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.video-mask .count {
+    color: #99a2aa;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.watch-later {
+	width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 6px;
+    bottom: 4px;
+    cursor: pointer;
+    background-image: url(../../images/watchlater.png);
+}

@@ -1,0 +1,154 @@
+.nav {
+	position: relative;
+	height: 59px;
+	margin-top: 135px;
+}
+
+.nav ul > li {
+	width: 46px;
+    text-align: center;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: 0;
+}
+.nav li .ico {
+	position: absolute;
+    top: 8px;
+    left: 0;
+    height: 14px;
+    width: 100%;
+    text-align: center;
+}
+.nav .shou {
+	margin-right: 8px;
+    width: 24px;
+}
+.nav .nav-menu {
+	display: none;
+    position: absolute;
+    left: 0;
+    top: 44px;
+    background: #fff;
+    border-top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    border-radius: 0 0 4px 4px;
+    z-index: 2;
+}
+.nav .w > ul > li:hover .nav-menu {
+	display: block;
+}
+.nav .nav-menu li {
+	position: relative;
+    font-size: 12px;
+    line-height: 20px;
+    min-width: 120px;
+    height: auto;
+    text-align: left;
+}
+.nav .nav-menu li:hover{
+    background-color:#e5e9ef
+}
+.nav .nav-menu li >a {
+	display: block;
+    padding: 5px 15px 5px 25px;
+    margin-right: 10px;
+    background: url(../../images/icons2.png) no-repeat 12px -1613px;
+    position: relative;
+    left: 0;
+    color: #222;
+}
+.nav .nav-menu li > a span {
+    position: relative;
+    white-space: nowrap
+}
+.nav .nav-menu li > a:hover {
+    left: 5px;
+}
+.nav .ico .first-net {
+	width: auto;
+    display: block;
+    background: url(../../images/icons.png) -660px -1177px no-repeat;
+}
+.nav .ico span {
+	display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    transform: scale(.85);
+    color: #fff;
+    background-color: #ffafc9;
+    border-radius: 3px;
+    height: 12px;
+    line-height: 14px;
+    max-width: 28px;
+    padding: 1px 3px;
+    font-family: sans-serif,sans-serifsans-serif,Calibri,Arial,Helvetica;
+}
+.nav li .name {
+	display: inline-block;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    height: 40px;
+    padding-top: 8px;
+    line-height: 50px;
+}
+.nav .w > a {
+	position: absolute;
+	float: right;
+	width: 69px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 0;
+	
+}
+.nav a > img {
+	height: 100%;
+	width: 100%;
+	border-radius: 3px;
+}
+.nav .zhuan i{
+	position: absolute;
+	margin: 3px auto 2px;
+	width: 18px;
+	height: 18px;
+	background: url(../../images/icons.png)-87px -1814px no-repeat;
+}
+.nav .ground i{
+	position: absolute;
+	margin: 3px auto 2px;
+	width: 18px;
+	height: 18px;
+	left: 25%;
+	background: url(../../images/icons.png)-87px -2006px no-repeat;
+}
+.nav .live i{
+	position: absolute;
+	margin: 3px auto 2px;
+	width: 18px;
+	height: 18px;
+	left: 25%;
+	background: url(../../images/icons.png)-87px -1878px no-repeat;
+}
+.nav .blackhouse i{
+	position: absolute;
+	margin: 3px auto 2px;
+	width: 18px;
+	height: 18px;
+	background: url(../../images/icons.png)-87px -1942px no-repeat;
+	left: 25%;
+}
+.random-p {
+    width: 69px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px 0;
+    overflow: hidden;
+}
+.random-p img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
