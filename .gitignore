@@ -23,3 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 bilibili-user/node_modules
+bilibili-m/node_modules

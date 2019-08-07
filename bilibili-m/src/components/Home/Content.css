@@ -1,0 +1,166 @@
+.index__home__src-home-,
+.index__divider__src-home- {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 3.79733rem;
+}
+.index__banner__src-home-slider-, .swipe {
+    position: relative;
+    height: 4.69333rem;
+    border-radius: .34133rem;
+}
+.index__banner__src-home-slider- {
+    padding: 0 .512rem;
+    margin: auto;
+    background-image: url(../../images/tv.png);
+    background-position: 5.65333rem 3.75467rem;
+    background-size: 4.69333rem 4.69333rem;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.ant-carousel .slick-slide {
+    position: relative;
+    display: block;
+    float: left;
+    width: 16rem;
+    height: 4.69333rem;
+    margin: auto;
+  }
+  .swipe-wrap a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 16rem;
+    height: 4.69333rem;
+    margin: auto;
+}
+
+.ant-carousel .slick-slide img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+}
+.ant-carousel .slick-dots {
+    position: absolute;
+    left: 0;
+    bottom: .192rem;
+    z-index: 0;
+    width: 100%;
+    text-align: center;
+    height: .552rem;
+    line-height: .552rem;
+}
+.ant-carousel .slick-dots li button {
+    width: .21333rem;
+    height: .21333rem;
+    float: left;
+    background-color: #fff;
+    border-radius: .10667rem;
+    margin: .10667rem!important;
+}
+.slick-active {
+    color: black
+}
+.slick-slide div{
+    height: 100%;
+}
+.index__rankingFlow__src-home-rankingFlowNormal- {
+    position: relative;
+    width: 100%;
+    padding-top: .512rem;
+}
+.index__rankingFlow__src-home-rankingFlowNormal- .index__content__src-home-rankingFlowNormal- {
+    position: relative;
+    padding-left: .256rem;
+    padding-right: .256rem;
+}
+.index__item__src-commonComponent-Item- {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-bottom: .68267rem;
+}
+.index__item__src-commonComponent-Item- .index__imgContainer__src-commonComponent-Item- {
+    position: relative;
+    width: 7.232rem;
+    height: 4.52267rem;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    border-radius: .256rem;
+    -webkit-border-radius: .256rem;
+    background-color: #e7e7e7;
+    z-index: 1;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(50%,transparent),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(transparent 50%,rgba(0,0,0,.5));
+}
+.index__imgContainer__src-commonComponent-Item- img.index__tv__src-commonComponent-Item- {
+    position: relative;
+    width: 4.52267rem;
+    height: 4.52267rem;
+    z-index: 1;
+}
+.index__imgContainer__src-commonComponent-Item- img.index__normal__src-commonComponent-Item- {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.index__item__src-commonComponent-Item- .index__imgContainer__src-commonComponent-Item->img {
+    display: block;
+    width: 100%;
+}
+.index__info__src-commonComponent-Item- {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    padding-left: .34133rem;
+    width: 100%;
+    bottom: 0;
+    height: .68267rem;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(33,33,33,0)),to(rgba(33,33,33,.5)));
+    background: linear-gradient(180deg,rgba(33,33,33,0),rgba(33,33,33,.5));
+}
+.index__danmuIcon__src-commonComponent-Item-, 
+.index__playIcon__src-commonComponent-Item- {
+    position: relative;
+    float: left;
+    width: .68267rem;
+    margin-top: -.064rem;
+}
+.index__play__src-commonComponent-Item-, 
+.index__view__src-commonComponent-Item- {
+    position: relative;
+    float: left;
+    margin-left: .256rem;
+    width: 2.048rem;
+}
+.index__info__src-commonComponent-Item- .index__danmuIcon__src-commonComponent-Item- {
+    margin-left: .61867rem;
+}
+.index__play__src-commonComponent-Item- p, 
+.index__view__src-commonComponent-Item- p {
+    text-align: left;
+    font-size: .46933rem;
+    color: #fff;
+    line-height: .59733rem;
+}
+.index__item__src-commonComponent-Item- .index__title__src-commonComponent-Item- {
+    width: 7.232rem;
+    position: relative;
+    margin: auto;
+    margin-top: .21333rem;
+    height: 1.36533rem;
+    overflow: hidden;
+}
+.index__item__src-commonComponent-Item- .index__title__src-commonComponent-Item- p {
+    font-size: .55467rem;
+    color: #212121;
+    letter-spacing: 0;
+    line-height: .68267rem;
+    text-align: left;
+}

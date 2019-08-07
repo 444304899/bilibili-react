@@ -22,18 +22,6 @@ class App extends Component {
     // store.subscribe(this.getStoreData);
   }
 
-  // getStoreData() {
-  //   // this.state = store.getState();
-  //   this.setState({
-  //     stulist: store.getState().stulist
-  //   });
-  // }
-
-  // stuList() {
-  //   return this.state.stulist.map((item, ind) => {
-  //     return <Showstu key={ind} stuinfo={item} ind={ind} />;
-  //   })
-  // }
 
   render() {
     return (

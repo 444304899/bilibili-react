@@ -6,14 +6,15 @@ export default class Header extends Component {
         this.state={
             kw : ""
         }
+        this.search = this.search.bind(this);
     }
     search(k){
-        console.log(k)
+        console.log(this.props.all)
     }
     render() {
         return (
             <div className="myheader">
-                <div className="menu">
+                <div className="menu" style={{display:this.props.all?'none':'block'}}>
                     <div className="w">
                         <div className="search">
                             <div className="bilibili-logo fl">

@@ -1,0 +1,124 @@
+.top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: fixed;
+    z-index: 19;
+    top: 0;
+    width: 100%;
+    height: 1.32267rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: .27733rem 0;
+    background-color: #fff;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.top .top-logo {
+	display: block;
+    margin-left: .768rem;
+    width: 2.64533rem;
+}
+.top .top-logo img {
+	position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+    color: transparent;
+}
+
+.top .top-admin {
+	display: block;
+    width: 1.024rem;
+    height: 1.024rem;
+    margin-right: .512rem;
+    position: relative;
+}
+.top .top-admin >div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0;
+    left: 0;
+    border: .1px solid #aaa;
+    border-radius: 50%;
+    z-index: 20;
+}
+.top .top-downapp {
+	display: block;
+    margin-right: .512rem;
+    width: 3.41333rem;
+    height: 1.024rem;
+    border: .02133rem solid #fb7299;
+    border-radius: .17067rem;
+    background-color: #fb7299;
+}
+.top .top-downapp p {
+	font-size: .55467rem;
+    line-height: 1.06667rem;
+    text-align: center;
+    color: #fff;
+}
+.top-search {
+    margin-left: auto;
+    display: block;
+    width: 5.69333rem;
+    height: 1.024rem;
+    background: #f4f4f4;
+    border-radius: .512rem;
+    margin-right: .64rem;
+    padding: 0 .46933rem;
+    color: #999;
+}
+.top-search .top-search-icon {
+    display: inline-block;
+    width: .53333rem;
+    height: .53333rem;
+    fill: #aaa;
+    vertical-align: super;
+    padding-top: .256rem;
+    margin-right: .17067rem;
+}
+.top-search .top-search-icon {
+    display: inline-block;
+    width: .53333rem;
+    height: .53333rem;
+    fill: #aaa;
+    vertical-align: super;
+    padding-top: .256rem;
+    margin-right: .17067rem;
+}
+.anticon svg {
+    width: .53333rem;
+    height: .53333rem;
+}
+.top-search span {
+    display: inline-block;
+    width: 3.94667rem;
+    font-size: .42667rem;
+    line-height: 1.024rem;
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.headimg {
+    display: block;
+    width: 1.024rem;
+    height: 1.024rem;
+    margin-right: .512rem;
+    position: relative;
+}
+.user{
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    width: 1.024rem;
+    height: 1.024rem;
+}
