@@ -6,7 +6,7 @@ class SecNav extends Component {
     state = {}
     render() {
         return (
-            <div className="index__partBox__src-partition-zone-">
+            <div className="secnav">
                 <TopNav></TopNav>
                 <div className="index__partBox__src-partition-secondZone-">
                     <div className="index__pagesContainer__src-partition-secondZone-">

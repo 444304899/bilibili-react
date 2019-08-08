@@ -39,8 +39,7 @@ class Content extends Component {
                 <div className="index__rankingFlow__src-home-rankingFlowNormal-" id="rankingFlowNormal">
                     <div className="index__content__src-home-rankingFlowNormal-">
                         <div id="video_0" className=" report-scroll-module report-wrap-module" scrollshow="true">
-                            <a
-                                className="index__item__src-commonComponent-Item-" href="/video/av62026826.html">
+                            <a className="index__item__src-commonComponent-Item-" href="/video/av62026826.html">
                                 <div className="index__imgContainer__src-commonComponent-Item-">
                                     <img src={require('../../images/tv.png')}
                                         className="index__tv__src-commonComponent-Item-" alt="" />
@@ -66,10 +65,10 @@ class Content extends Component {
                                 <div className="index__title__src-commonComponent-Item-">
                                     <p>我被告知跟我22年的名字我不能用要我改名！我如何维权的！</p>
                                 </div>
-                            </a></div>
+                            </a>
+                        </div>
                         <div id="video_1" className=" report-scroll-module report-wrap-module" scrollshow="true">
-                            <a
-                                className="index__item__src-commonComponent-Item-" href="/video/av61850079.html">
+                            <a className="index__item__src-commonComponent-Item-" href="/video/av61850079.html">
                                 <div className="index__imgContainer__src-commonComponent-Item-">
                                     <img src={require('../../images/tv.png')}
                                         className="index__tv__src-commonComponent-Item-" alt="" />
@@ -96,7 +95,8 @@ class Content extends Component {
                                 <div className="index__title__src-commonComponent-Item-">
                                     <p>人可以恶心到什么程度 曝光：恶魔真的就在你身边</p>
                                 </div>
-                            </a></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

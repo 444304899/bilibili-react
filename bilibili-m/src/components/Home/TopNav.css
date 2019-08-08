@@ -1,12 +1,4 @@
-*{
-    scrollbar-3dlight-color:#fff;
-    scrollbar-highlight-color:#fff; 
-    scrollbar-arrow-color:#fff;
-    scrollbar-shadow-color:#fff;
-    scrollbar-darkshadow-color:#fff; 
-    scrollbar-base-color:#fff; 
-    scrollbar-track-color:#fff; 
-}
+
 .ant-tabs-nav-container {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -28,7 +20,7 @@
     top: 1.856rem;
     z-index: 5;
     overflow: hidden;
-    webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -145,7 +137,8 @@
     padding-right: 0;
     padding-left: 0;
 }
-.ant-tabs-tab-prev.ant-tabs-tab-arrow-show, .ant-tabs-tab-next.ant-tabs-tab-arrow-show {
+.ant-tabs-tab-prev.ant-tabs-tab-arrow-show, 
+.ant-tabs-tab-next.ant-tabs-tab-arrow-show {
     display: none
 }
 .index__partBox__src-home-zoneAll-.index__show__src-home-zoneAll- {

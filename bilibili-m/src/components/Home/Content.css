@@ -164,3 +164,6 @@
     line-height: .68267rem;
     text-align: left;
 }
+.ant-carousel .slick-list {
+    border-radius: .34133rem;
+}

@@ -2,6 +2,9 @@ html,
 body{
   font-size: 6.25vw !important;
 }
+body {
+	min-width: 180px;
+}
 div,
 fieldset,
 hr,
