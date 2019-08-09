@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 require('./TopNav.css')
 
 const { TabPane } = Tabs;
-const tabs = ['首页', '动画', '番剧', '国创', '音乐', '舞蹈', '科技', '数码', '游戏',
+const tabs = [ '动画', '番剧', '国创', '音乐', '舞蹈', '科技', '数码', '游戏',
     '娱乐', '鬼畜', '电影', '电视剧', '纪录片', '影视', '时尚', '生活', '广告', '直播', '相簿'];
 
 function callback(key) {
@@ -29,15 +29,18 @@ class TopNav extends Component {
     }
     goRouter(key){
         // console.log('index:'+key);
-        this.props.history.push('/channel');
+        // this.props.history.push('/channel');
     }
     render() {
         return (
             <div className="topnav">
                 <div className="index__partBox__src-home-zoneAll- index__show__src-home-zoneAll-" style={{ display: this.state.ls ? "block" : "none" }}>
                     <div className="index__pagesContainer__src-home-zoneAll-" id="scrollZoneAll">
+                        <Link to={'/'} className="index__tab__src-home-zoneAll-tab-  index__test__src-home-zoneAll-tab-"onClick={this.openList}>
+                                <p>首页</p>
+                            </Link>
                         {tabs.map((item, index) => (
-                            <Link to={'/channel?bid=' + index} className="index__tab__src-home-zoneAll-tab-  index__test__src-home-zoneAll-tab-" key={index}>
+                            <Link to={'/channel?bid=' + index} className="index__tab__src-home-zoneAll-tab-  index__test__src-home-zoneAll-tab-" key={index} onClick={this.openList}>
                                 <p>{item}</p>
                             </Link>
                         ))}
@@ -57,10 +60,11 @@ class TopNav extends Component {
                 </div>
                 <div className="index__partBox__src-home-zone-">
                     <div className="index__pagesContainer__src-home-zone-">
-                        <Tabs defaultActiveKey="1" onChange={this.goRouter.bind(this)} className="index__scrollContainer__src-home-zone-">
+                        <Tabs defaultActiveKey="1" onChange={callback} className="index__scrollContainer__src-home-zone-">
+                            <TabPane tab='首页' key='1'></TabPane>
                             {tabs.map((item, index) => (
-                                // <Link to={'/channel/' + index} key={index + 1}>
-                                    <TabPane tab={item} key={index + 1} onClick={this.goRouter.bind(this,index)}></TabPane>
+                                // <Link to={'/channel?bid=' + index} key={index + 1}>
+                                    <TabPane tab={item} key={index + 2} onClick={this.goRouter.bind(this,index)}></TabPane>
                                 // </Link>
                             ))}
                             {/* <TabPane tab="首页" key="1"></TabPane> */}

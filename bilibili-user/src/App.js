@@ -5,8 +5,6 @@ import React, { Component } from 'react';
 // import store from '../store';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './components/Home/Home';
-import About from './components/About/About';
-import Abouti from './components/About/Abouti';
 import Login from './components/login/Login';
 
 
@@ -27,8 +25,6 @@ class App extends Component {
     return (
       <Router>
         <Route path='/' component={Home} exact />
-        <Route path='/about' component={About} />
-        <Route path='/abouti' component={Abouti} />
         <Route path='/login' component={Login} />
       </Router>
     );

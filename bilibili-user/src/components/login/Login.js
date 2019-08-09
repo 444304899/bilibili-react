@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MyHeader from '../Home/Header';
+import { Link } from 'react-router-dom';
 require("./Login.css")
 // import style from './Login.module.css';
 // console.log(style);
@@ -37,7 +38,7 @@ export default class Login extends Component {
                 pwerrtips: '喵，你没输入密码么？'
             });
         }
-        console.log("up")
+        // console.log("up")
     }
     inputChange(e) {
         // console.log(e.target)
@@ -50,7 +51,9 @@ export default class Login extends Component {
                 password: e.target.value
             }
         })
-
+    }
+    login(){
+        console.log(this.state.form.username,this.state.form.password)
     }
 
     render() {
@@ -119,8 +122,8 @@ export default class Login extends Component {
                                             </label>
                                         </li>
                                         <li className="button-box">
-                                            <a href="" className="but in">登录</a>
-                                            <a href="" className="but ap">注册</a>
+                                            <Link to={'/'} className="but in" onClick={this.login.bind(this)}>登录</Link>
+                                            <Link to={'/create'} className="but ap">注册</Link>
                                         </li>
                                         <li className="link">
                                             <a href="" className="weibo">微博账号登录</a>
